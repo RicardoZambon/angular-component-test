@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { FormInputComponent } from './form-input/form-input.component';
 
@@ -9,7 +10,8 @@ import { FormInputComponent } from './form-input/form-input.component';
     FormInputComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     FormInputComponent
