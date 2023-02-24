@@ -77,12 +77,12 @@ import { Component, Input } from '@angular/core';
   ],
 })
 export class FormInputComponent {
-  @Input() label: string;
-  @Input() placeholder: string;
+  @Input() label: string = 'Test label: ';
+  @Input() placeholder: string = '';
   @Input() type = 'text';
   @Input() icon: string;
   @Input() error = false;
-  @Input() value: string;
+  @Input() value: string = '';
   @Input() required = false;
   @Input() min: number;
   @Input() max: number;

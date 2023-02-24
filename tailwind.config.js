@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./src/**/*.{html,js,ts,json}'],
+  content: ['./app/**/*.{html,ts}'],
   purge: [],
   darkMode: false,
   theme: {
