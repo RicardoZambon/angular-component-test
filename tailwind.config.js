@@ -1,12 +1,8 @@
 module.exports = {
-  content: ['./app/**/*.{html,ts}'],
-  purge: [],
-  darkMode: false,
+  content: [
+    './**/*.{html,js,ts}'
+  ],
   theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };
